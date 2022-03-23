@@ -1,0 +1,11 @@
+CSS
+CLASE se la llama como .yelnombredelaclase, se puede repetir
+ID uso #yelid, el ID es mejor que sea unico
+cuanto mas abajo + prioritario onda si pongo un color a una etiqueta en la linea 3, si lo cambio en la linea 4, queda el de la linea 4
+INTERNAL la etiqueta style y adentro de la etiqueta escrbo css
+EXTERNAL con un link enlazo el archivo html y el css, si tenia cosas en el internal se pierde
+INLINE
+Si pones el !important le das mas prioridad
+el git add . es peligroso porque me agrega todo
+RGB o CMYK, RGB es para la web, CMYK es cuando imprimo
+Fuentes Sans Serif
