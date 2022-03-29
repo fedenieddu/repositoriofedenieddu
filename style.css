@@ -3,3 +3,23 @@ h1{color:red;}
 /* comentario
 *comentario
 */
+header{
+  position: sticky;
+  background-color: black;
+  position: -webkit-sticky;
+  top: 0px;
+}
+menu{
+    list-style: none;
+    margin: -10px;
+}
+menu > a > li{
+    color: white;
+    display: inline;
+
+}
+#whatsapp{
+    height: 30px;
+    right: 20px;
+    position:fixed
+}
