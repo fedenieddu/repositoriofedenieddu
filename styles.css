@@ -1,0 +1,59 @@
+/*h1{color:red;}
+ Comentario */
+/* comentario
+*comentario
+
+
+menu{
+    list-style: none;
+}
+
+
+#logo-header{
+    width: 5%;
+}
+*/
+#logo-header{
+    width: 10%;
+}
+#whatsapp{
+    height: 30px;
+    right: 20px;
+    position:fixed
+}
+h1{color:black}
+.navbar-light{
+    background-color: #F8F9FC;
+}
+.navbar-brand{
+    font-size: medium;
+}
+body{
+    background-color: black
+    ;
+    color: #F8F9FC
+    ;
+}
+#fotobody1{
+    width: 100%;
+}
+#merc{
+    background-image: url(./images/FOTO\ LEWIS.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#fotoPPB{
+    visibility: hidden;
+}
+#descripcion_foto{
+    color: #F8F9FC;
+    text-align: center;
+    vertical-align: middle;
+}
+#descmerc{
+    background-color: black
+    ;
+}
+.row{
+    
+}
