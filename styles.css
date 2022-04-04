@@ -34,26 +34,20 @@ body{
     color: #F8F9FC
     ;
 }
-#fotobody1{
-    width: 100%;
-}
-#merc{
-    background-image: url(./images/FOTO\ LEWIS.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-#fotoPPB{
-    visibility: hidden;
-}
+
+
+
 #descripcion_foto{
     color: #F8F9FC;
-    text-align: center;
-    vertical-align: middle;
 }
 #descmerc{
     background-color: black
     ;
 }
 .row{
-    
+    margin-bottom: 50px;
+}
+#fotolewis{
+    width: 100%;
+
 }
