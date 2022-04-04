@@ -43,8 +43,9 @@ body{
     font-size: 3vw;
 }
 #descmerc{
-    background-color: black
-    ;
+    background-color: black;
+    margin-bottom: 50px;
+    padding: 10px;
 }
 
 #fotolewis{
@@ -53,11 +54,15 @@ body{
 
 }
 .carousel-caption{
-    top: 30%;
+    top: 20%;
     bottom: auto;
     left: 20px;
     
 }
 .container-fluid{
     padding: 0px;
+}
+#fotoferrari{
+    width: 100%;
+    margin-bottom: 50px;
 }
