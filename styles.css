@@ -39,15 +39,25 @@ body{
 
 #descripcion_foto{
     color: #F8F9FC;
+    width: 30%;
+    font-size: 3vw;
 }
 #descmerc{
     background-color: black
     ;
 }
-.row{
-    margin-bottom: 50px;
-}
+
 #fotolewis{
     width: 100%;
+    margin-bottom: 50px;
 
+}
+.carousel-caption{
+    top: 30%;
+    bottom: auto;
+    left: 20px;
+    
+}
+.container-fluid{
+    padding: 0px;
 }
