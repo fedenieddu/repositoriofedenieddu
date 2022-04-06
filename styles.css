@@ -44,13 +44,16 @@ body{
 }
 #descmerc{
     background-color: black;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding: 10px;
+    color: black;
+    transition: 1s;
+    margin-top: 100px;
 }
 
 #fotolewis{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
 }
 .carousel-caption{
@@ -65,4 +68,18 @@ body{
 #fotoferrari{
     width: 100%;
     margin-bottom: 50px;
+}
+@keyframes descripcion_mercedes{
+    0% {color:black}
+    100%{color:#F8F9FC}
+}
+/*#descw13{
+    color: #F8F9FC;
+    animation-name: descripcion_mercedes;
+    animation-duration: 10s;
+}
+*/
+
+#descmerc:hover{
+color: #F8F9FC;
 }
