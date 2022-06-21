@@ -1,7 +1,17 @@
 #logo-header{
     width: 10%;
 }
-.body{
+.navbar-light{
+    background-color: #F8F9FC;
+}
+.navbar-brand{
+    font-size: medium;
+}
+body{
+    background-color: black
+    ;
+    color: #F8F9FC
+    ;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 #countdown{
