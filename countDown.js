@@ -1,15 +1,15 @@
-var fechaCountdown = new Date("Nov 20, 2022 15:00:00").getTime();
+let fechaCountdown = new Date("Nov 20, 2022 15:00:00").getTime();
 
-var x = setInterval(function () {
-  var hoy = new Date().getTime();
+let x = setInterval(function () {
+  let hoy = new Date().getTime();
 
-  var distancia = fechaCountdown - hoy;
-  var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
-  var horas = Math.floor(
+  let distancia = fechaCountdown - hoy;
+  let dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+  let horas = Math.floor(
     (distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   );
-  var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
-  var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+  let minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+  let segundos = Math.floor((distancia % (1000 * 60)) / 1000);
 
   document.getElementById("countdown").innerHTML =
     dias + "d " + horas + "h " + minutos + "m " + segundos + "s ";
