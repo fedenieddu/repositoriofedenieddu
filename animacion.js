@@ -1,6 +1,7 @@
-const descripcionmercedes = document.getElementById("descmerc");
-const descripcionferrari = document.getElementById("descferrari");
-const descripcionredbull= document.getElementById("descrb");
+const imagenlewis = document.getElementById("lh");
+const imagenseb = document.getElementById("sv");
+const imagenfalo= document.getElementById("fa");
+const imagenmax= document.getElementById("mv");
 
 const cargarImagen = (entradas,observador)=>{
     entradas.forEach((entrada)=>{
@@ -14,6 +15,7 @@ const observador = new IntersectionObserver(cargarImagen,{
     rootMargin:'0px 0px 0px 0px',
     threshold: 0.7
 });
-observador.observe(descripcionmercedes)
-observador.observe(descripcionferrari)
-observador.observe(descripcionredbull)
+observador.observe(imagenlewis)
+observador.observe(imagenseb)
+observador.observe(imagenfalo)
+observador.observe(imagenmax)

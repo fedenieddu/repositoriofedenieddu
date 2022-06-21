@@ -23,6 +23,13 @@ body{
     margin-left: 70px;
     margin-top: 25px;
     margin-bottom: 25px;
+    opacity: 0;
+    transform: scale(0.4);
+    transition: 1s;
+}
+#lh.visible{
+    opacity: 1;
+    transform: scale(1);
 }
 #lewis{
     text-align: center;
@@ -41,10 +48,19 @@ body{
 #sv{
     width: 60%;
     margin-top: 25px;
+    opacity: 0;
+    transform: scale(0.4);
+    transform: translateX(100px);
+    transition: 1s;
+}
+#sv.visible{
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0px);
 }
 #rb{
     width: 40%;
-    margin-top: 40%;
+    margin-top: 20%;
 }
 #psv{
     background-color: black;
@@ -57,6 +73,15 @@ body{
     width: 70%;
     margin-top: 25px;
     margin-bottom: 25px;
+    opacity: 0;
+    transform: scale(0.4);
+    transform: translateX(-100px);
+    transition: 1s;
+}
+#fa.visible{
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0);
 }
 #pfa{
     background-color: #D20000;
@@ -74,6 +99,13 @@ body{
     width: 70%;
     margin-top: 25px;
     margin-bottom: 25px;
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0.0);
+}
+#mv.visible{
+    opacity: 1;
+    transform: scale(1);
 }
 #pmv{
     background-color: #F96100;

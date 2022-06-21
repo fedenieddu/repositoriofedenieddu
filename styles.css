@@ -27,8 +27,13 @@ body{
     color: #F8F9FC;
     transition: 1s;
     margin-top: 100px;
+    opacity: 0;
+    transform: translateX(-100px);
 }
-
+#descmerc.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
 #fotoautos{
     width: 100%;
     margin-bottom: 0px;
@@ -48,18 +53,22 @@ body{
     padding: 0px;
 }
 
-/*@keyframes descripcion_mercedes{
-    0% {color:black}
-    100%{color:#F8F9FC}
-}
-*/
-/*#descmerc:hover{
-color: #F8F9FC;
-}
-*/
 .row{width: 100%!important;
 margin: 0px;}
-
+#descferrari{
+    background-color: black;
+    margin-bottom: 100px;
+    padding: 10px;
+    color: #F8F9FC;
+    transition: 1s;
+    margin-top: 100px;
+    opacity: 0;
+    transform: scale(0.1);
+}
+#descferrari.visible{
+    opacity: 1;
+    transform: scale(1);
+}
 #descrb{
     background-color: black;
     margin-bottom: 100px;
@@ -67,11 +76,13 @@ margin: 0px;}
     color: #F8F9FC;
     transition: 1s;
     margin-top: 100px;
+    opacity: 0;
+    transform: translateY(20px);
 }
-/*#descrb:hover{
-    color: #F8F9FC;
-    }
-*/
+#descrb.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
 #captionrb{
     top: 10%;
     bottom: auto;
