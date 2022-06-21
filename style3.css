@@ -1,6 +1,9 @@
 #logo-header{
     width: 10%;
 }
+#icono{
+    width: 1%;
+}
 .navbar-light{
     background-color: #F8F9FC;
 }
@@ -42,4 +45,23 @@ body{
 }
 #ranking-constructores{
     margin-left: 10px;
+}
+#footer{
+    font-size: 1vw;
+    background-color: #F8F9FC;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#colf{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0%;
+}
+.browse-links{
+    color: black;
+}
+#ulfooter{
+    padding: 0%;
+    list-style-type: none;
 }

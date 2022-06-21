@@ -115,3 +115,22 @@ body{
     text-align: center;
     color: #01004F;
 }
+#footer{
+    font-size: 1vw;
+    background-color: #F8F9FC;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#colf{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0%;
+}
+.browse-links{
+    color: black;
+}
+#ulfooter{
+    padding: 0%;
+    list-style-type: none;
+}

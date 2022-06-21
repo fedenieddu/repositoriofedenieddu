@@ -15,10 +15,17 @@ body{
     ;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-#descripcion_foto{
+#descripcion_foto_mercedes{
     color: #F8F9FC;
     width: 30%;
     font-size: 3vw;
+    transition: 1s;
+    opacity: 0;
+    transform: scale(0);
+}
+#descripcion_foto_mercedes.visible{
+    opacity: 1;
+    transform: scale(1);
 }
 #descmerc{
     background-color: black;
@@ -55,6 +62,18 @@ body{
 
 .row{width: 100%!important;
 margin: 0px;}
+#descripcion_foto_ferrari{
+    color: #F8F9FC;
+    width: 30%;
+    font-size: 3vw;
+    transition: 1s;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+#descripcion_foto_ferrari.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
 #descferrari{
     background-color: black;
     margin-bottom: 100px;
@@ -71,11 +90,11 @@ margin: 0px;}
 }
 #descrb{
     background-color: black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 10px;
     color: #F8F9FC;
     transition: 1s;
-    margin-top: 100px;
+    margin-top: 50px;
     opacity: 0;
     transform: translateY(20px);
 }
@@ -93,4 +112,30 @@ margin: 0px;}
     color: #F8F9FC;
     font-size: 3vw;
     margin: 0px;
+    transition: 1s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+#descripcion_foto_rb.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+#footer{
+    font-size: 1vw;
+    background-color: #F8F9FC;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#colf{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0%;
+}
+.browse-links{
+    color: black;
+}
+#ulfooter{
+    padding: 0%;
+    list-style-type: none;
 }
