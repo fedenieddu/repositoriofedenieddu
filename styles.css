@@ -2,7 +2,6 @@
 #logo-header{
     width: 10%;
 }
-h1{color:black}
 .navbar-light{
     background-color: #F8F9FC;
 }
@@ -25,7 +24,7 @@ body{
     background-color: black;
     margin-bottom: 100px;
     padding: 10px;
-    color: black;
+    color: #F8F9FC;
     transition: 1s;
     margin-top: 100px;
 }
@@ -49,21 +48,15 @@ body{
     padding: 0px;
 }
 
-@keyframes descripcion_mercedes{
+/*@keyframes descripcion_mercedes{
     0% {color:black}
     100%{color:#F8F9FC}
 }
-/*#descw13{
-    color: #F8F9FC;
-    animation-name: descripcion_mercedes;
-    animation-duration: 10s;
-}
 */
-
-#descmerc:hover{
+/*#descmerc:hover{
 color: #F8F9FC;
 }
-
+*/
 .row{width: 100%!important;
 margin: 0px;}
 
@@ -71,13 +64,14 @@ margin: 0px;}
     background-color: black;
     margin-bottom: 100px;
     padding: 10px;
-    color: black;
+    color: #F8F9FC;
     transition: 1s;
     margin-top: 100px;
 }
-#descrb:hover{
+/*#descrb:hover{
     color: #F8F9FC;
     }
+*/
 #captionrb{
     top: 10%;
     bottom: auto;

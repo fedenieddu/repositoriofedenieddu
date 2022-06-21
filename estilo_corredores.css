@@ -1,0 +1,85 @@
+
+#logo-header{
+    width: 10%;
+}
+.navbar-light{
+    background-color: #F8F9FC;
+}
+.navbar-brand{
+    font-size: medium;
+}
+body{
+    background-color: black
+    ;
+    color: #F8F9FC
+    ;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.container-fluid{
+    padding: 0px;
+}
+#lh{
+    width: 55%;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#lewis{
+    text-align: center;
+    margin-top: 20%;
+    color: #44C1C4;
+}
+#plewis{
+    background-color: #CDC2DC;
+}
+#mercedes{
+    width: 40%;
+    margin-bottom: 20%;
+}
+.row{width: 100%!important;
+    margin: 0px;}
+#sv{
+    width: 60%;
+    margin-top: 25px;
+}
+#rb{
+    width: 40%;
+    margin-top: 40%;
+}
+#psv{
+    background-color: black;
+}
+#seb{
+    text-align: center;
+    margin-top: 30%;
+}
+#fa{
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#pfa{
+    background-color: #D20000;
+    color: #F8F9FC;
+}
+#falo{
+    text-align: center;
+    margin-top: 40%;
+}
+#ferrari{
+    width: 40%;
+    margin-bottom: 20%;
+}
+#mv{
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#pmv{
+    background-color: #F96100;
+}
+#mver{
+    margin-top: 30%;
+    text-align: center;
+    color: #01004F;
+}

@@ -25,15 +25,12 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class=" nav-link active" href="#">Calendario</a>
-          </li>
           <li class="nav-item">
-            <a class=" nav-link active" href="./index.html">Equipos</a>
+            <a class=" nav-link active" href="./index.html">Top 3 autos</a>
           </li>
           
           <li class="nav-item">
-            <a class=" nav-link active" href="#">Corredores</a>
+            <a class=" nav-link active" href="./corredores.html">Campeones</a>
           </li>
           
               
@@ -47,28 +44,6 @@
         <p id="countdown"></p>
       </div>
   </div>
-    <script>
-      var fechaCountdown = new Date("Nov 20, 2022 15:00:00").getTime();
-      
-      var x = setInterval(function() {
-      
-        var hoy = new Date().getTime();
-      
-        var distancia = fechaCountdown - hoy;
-        var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
-        var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
-        var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
-      
-        document.getElementById("countdown").innerHTML = dias + "d " + horas + "h "
-        + minutos + "m " + segundos + "s ";
-      
-        if (distancia < 0) {
-          clearInterval(x);
-          document.getElementById("countdown").innerHTML = "LA TEMPORADA TERMINO";
-        }
-      }, 1000);
-      </script>
       
       <div id="ranking-drivers">
         <h8 id="ranking">Campeonato de conductores (10 primeros)</h8>
@@ -254,6 +229,6 @@
      Fecha de nacimiento <input type="date"><br>
      <input type="button" value="Enviar"><br>
  -->
-
+<script src="./countDown.js"></script>
 </body>
 </html>
